@@ -21,7 +21,6 @@ export default class HomeView extends Component<Props> {
     render() {
 
         const artists = this.state.artists;
-        console.warn(artists)
 
         return(
             <View style={styles.container}>
